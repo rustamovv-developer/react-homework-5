@@ -1,0 +1,25 @@
+.nav {
+  padding: 16px 0px;
+}
+.nav__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.nav__link {
+  color: #394149;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.nav__link:last-child {
+  padding: 18px 32px;
+  color: #f58a07;
+  background-color: #f58a071a;
+  border-radius: 31px;
+}
